@@ -1,0 +1,7 @@
+langgraph
+groq
+pandas
+pdfplumber
+python-dotenv
+pytest
+openpyxl
