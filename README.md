@@ -84,7 +84,7 @@ openpyxl  # for Excel file support
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-repo/ai-agent-challenge.git
+git clone https://github.com/Bhudil/ai-agent-challenge.git
 cd ai-agent-challenge
 ```
 
@@ -99,12 +99,6 @@ Create a `.env` file in the project root:
 GROQ_API_KEY=your_groq_api_key_here
 GROQ_MODEL=llama-3.1-8b-instant
 ```
-
-To obtain a free Groq API key:
-- Visit https://console.groq.com
-- Sign up for an account
-- Navigate to API Keys section
-- Generate a new key
 
 ### Step 4: Prepare Data
 Organize your bank statement data:
@@ -132,11 +126,6 @@ Replace `icici` with your target bank identifier (must match the folder name in 
 ### Generate Parser for ICICI Bank
 ```bash
 python agent.py --target icici
-```
-
-### Generate Parser for SBI Bank
-```bash
-python agent.py --target sbi
 ```
 
 ### Run Tests Manually
